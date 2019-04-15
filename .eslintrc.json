@@ -1,0 +1,33 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true
+    },
+    "extends": "airbnb",
+    "globals": {
+        "Atomics": "readonly",
+        "SharedArrayBuffer": "readonly"
+    },
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+    "rules": {
+        "no-undef": "off",
+        "import/no-named-as-default": "off",
+        "import/no-named-as-default-member": "off",
+        "max-len": "off",
+        "class-methods-use-this": "off",
+        "no-unused-expressions": "off",
+        "no-sequences": "off",
+        "no-restricted-syntax": "off",
+        "no-restricted-globals": "off",
+        "statement": "off",
+        "no-cond-assign": "off",
+        "prefer-destructuring": "off",
+        "no-empty": "off",
+        "no-param-reassign": "off",        
+        "import/extensions": "off"       
+        
+    }
+}

@@ -1,0 +1,67 @@
+.calendarDiv {
+  width: auto;
+  text-align: center;
+}
+
+.today {
+  background-color: red;
+  cursor: pointer;
+}
+
+.notActive{
+  color: grey;
+  cursor: no-drop;
+}
+
+.active {
+  cursor: pointer;
+}
+
+.selectForm{
+  position: relative;
+  /* display: flex;
+  flex-direction: column; */
+}
+
+.selectDate{
+  width: auto;
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 20px;
+  left: 50px;
+ display: flex;
+}
+
+.selectDateConv{
+  width: auto;
+  /* border: 1px solid black; */
+  position: absolute;
+  top: 20px;
+  left: 350px;
+ display: flex;
+}
+
+.label{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.input, .inputConv{
+  margin-left: 50px;
+  margin-right: 20px;
+}
+
+.up{  
+  width: 30px; 
+  cursor: pointer; 
+}
+
+.down{  
+  width: 30px; 
+  cursor: pointer; 
+}
+
+.chek{
+margin: 10px;
+}
